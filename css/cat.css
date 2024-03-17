@@ -1,0 +1,8 @@
+details{
+    padding-left: 2em;
+}
+
+details a {
+    padding-left: 2em;
+    display: block;
+}

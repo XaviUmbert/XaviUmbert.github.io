@@ -1,8 +1,21 @@
+#cat {
+    display: flex;
+    font-size: 25px;
+}
+
+#cat > details {
+    width: 25vw;
+    padding: 0;
+}
+
 details{
-    padding-left: 2em;
+    padding-left: 1em;
+    cursor: default;
 }
 
 details a {
     padding-left: 2em;
     display: block;
+    color: cornflowerblue;
+    text-decoration: none;
 }

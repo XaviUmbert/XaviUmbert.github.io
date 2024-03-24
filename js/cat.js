@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const detalles = document.querySelectorAll('#cat details');
+    const detalles = document.querySelectorAll('#cats details');
 
     detalles.forEach(detalle => {
         const summary = detalle.querySelector('summary');

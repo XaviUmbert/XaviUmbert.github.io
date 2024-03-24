@@ -1,21 +1,44 @@
-#cat {
-    display: flex;
+#cats {
     font-size: 25px;
+
+    display: grid;
+    grid-template-areas:
+    "games games"
+    "animanga animanga"
+    "cine series";
 }
 
-#cat > details {
-    width: 25vw;
-    padding: 0;
+
+.cat {
+    padding: 10px;
+
+    background-color: indianred;
+
+    border: 4px solid black;
+    border-radius: 0.75em;
+
+
+
 }
 
-details{
-    padding-left: 1em;
-    cursor: default;
+#games {
+    grid-area: games;
 }
 
-details a {
-    padding-left: 2em;
-    display: block;
-    color: cornflowerblue;
-    text-decoration: none;
+#animanga {
+    grid-area: animanga;
+}
+
+#cine {
+    grid-area: cine;
+}
+
+#series {
+    grid-area: series;
+}
+
+@media only screen and (orientation: portrait) {
+    #cats {
+        display: initial;
+    }
 }

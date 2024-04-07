@@ -36,8 +36,8 @@
 @media only screen and (orientation: portrait) {
     #cats {
         grid-template-areas:
-            "games"
             "animanga"
+            "games"
             "cine"
             "series";
     }

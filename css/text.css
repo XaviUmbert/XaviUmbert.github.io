@@ -7,20 +7,30 @@ header {
 .cat-title{
     font-size: 40px;
     margin-bottom: 16px;
+    font-weight: bold;
 }
 a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+#cats a {
     font-size: 24px;
     padding: 8px 16px;
     border-radius: 16px;
 }
 
-a:hover{
+#cats a:hover{
     background-color: rgb(0, 0, 0, 0.4);
 }
 
+.index a:hover {
+    color: navajowhite;
+}
+
+
 .cat {
     text-align: center;
-
+    cursor: default;
 }
 
 .cat-content > div {
@@ -28,4 +38,9 @@ a:hover{
     margin-bottom: 8px;
     padding: 16px;
     border-radius: 32px;
+}
+
+.index {
+    font-size: 20px;
+    line-height: 1.5em;
 }

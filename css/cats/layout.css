@@ -1,0 +1,12 @@
+.index {
+    width: fit-content;
+    margin: auto;
+}
+
+.index ol ol {
+    margin-bottom: 15px;
+}
+
+.article {
+    margin: 32px 64px;
+}

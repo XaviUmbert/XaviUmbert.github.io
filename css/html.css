@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+
 html {
     background-color: darkslategrey;
     color: antiquewhite;
+    font-family: "Sono", monospace;
 }
 
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -18,8 +21,8 @@ main {
     padding: 16px;
     height: auto;
     flex: 1;
-    align-content: center;
 }
+
 
 #shadowLL {
     display: none;

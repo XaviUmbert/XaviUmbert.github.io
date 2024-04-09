@@ -1,19 +1,31 @@
-.cat h1 {
-    margin: 30px 15px;
-}
-.cat h2, h3, h4, h5, h6 {
-    margin: 10px 15px;
-    padding: 5px;
-
-    border-radius: 15px;
+header {
+    text-align: center;
+    font-size: 72px;
+    text-decoration: underline;
 }
 
-.cat a {
-    margin: 2px;
-    padding: 2px 7px;
-    border-radius: 10px;
+.cat-title{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+a {
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 16px;
 }
 
-.cat a:hover {
-    background-color: rgb(0, 0, 0, 0.3);
+a:hover{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.cat {
+    text-align: center;
+
+}
+
+.cat-content > div {
+    border: 2px solid black;
+    margin-bottom: 8px;
+    padding: 16px;
+    border-radius: 32px;
 }

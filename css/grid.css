@@ -1,0 +1,42 @@
+#cats {
+    display: grid;
+    grid-template-areas:
+        "anime media"
+        "videojuegos manga";
+
+    justify-items: center;
+    align-items: center;
+
+    column-gap: 64px;
+    row-gap: 132px;
+}
+
+#anime {
+    grid-area: anime;
+}
+#manga {
+    grid-area: manga;
+}
+#media {
+    grid-area: media;
+}
+#videojuegos {
+    grid-area: videojuegos;
+}
+
+@media screen and (orientation: portrait) {
+    #cats {
+        grid-template-areas:
+        "anime"
+        "media"
+        "videojuegos"
+        "manga";
+
+        gap: 64px;
+    }
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+}

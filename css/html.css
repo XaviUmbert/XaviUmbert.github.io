@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
 
 html {
-    background-color: darkslategrey;
+    background-color: rgba(57,150,75,255);
     color: antiquewhite;
     font-family: "Sono", monospace;
 }
